@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="YB" allow-return-values="true">
+	<!-- 打开浏览器 -->
+	<test name="open">
+		<classes>
+			<class name="com.soul.cases.OpenBrowser">
+				<methods>
+					<include name="openBrowser"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<!-- 登录 -->
+	<test name="login">
+		<classes>
+			<class name="com.soul.cases.Login">
+				<methods>
+					<include name="login"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<!-- 关闭浏览器 -->
+	<test name="close">
+		<classes>
+			<class name="com.soul.cases.OpenBrowser">
+				<methods>
+					<include name="closeBrowser"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

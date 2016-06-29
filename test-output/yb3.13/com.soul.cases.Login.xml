@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.soul.cases.Login" failures="0" tests="1" time="0.022" errors="0">
+  <properties/>
+  <testcase name="login" time="0.002" classname="com.soul.cases.Login">
+    <skipped/>
+  </testcase>
+</testsuite>

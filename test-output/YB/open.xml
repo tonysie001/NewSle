@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="open" failures="0" tests="2" time="9.909" errors="0">
+  <properties/>
+  <testcase name="openBrowser" time="5.165" classname="com.soul.cases.OpenBrowser"/>
+  <testcase name="login" time="4.487" classname="com.soul.cases.Login"/>
+</testsuite>

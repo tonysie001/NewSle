@@ -1,0 +1,45 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="YB" duration-ms="10023" started-at="2016-06-29T11:04:18Z" finished-at="2016-06-29T11:04:28Z">
+    <groups>
+      <group name="base">
+        <method signature="com.soul.cases.Login.login(java.lang.String, java.lang.String)" name="login" class="com.soul.cases.Login"/>
+      </group>
+      <group name="init">
+        <method signature="com.soul.cases.OpenBrowser.openBrowser()" name="openBrowser" class="com.soul.cases.OpenBrowser"/>
+      </group>
+      <group name="end">
+        <method signature="com.soul.cases.OpenBrowser.closeBrowser()" name="closeBrowser" class="com.soul.cases.OpenBrowser"/>
+      </group>
+    </groups>
+    <test name="open" duration-ms="9909" started-at="2016-06-29T11:04:18Z" finished-at="2016-06-29T11:04:27Z">
+      <class name="com.soul.cases.Login">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)" name="login" duration-ms="4487" depends-on-groups="init" started-at="2016-06-29T11:04:23Z" finished-at="2016-06-29T11:04:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sjh1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwe123]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="com.soul.cases.OpenBrowser">
+        <test-method status="PASS" signature="openBrowser()" name="openBrowser" duration-ms="5165" started-at="2016-06-29T11:04:18Z" finished-at="2016-06-29T11:04:23Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="close" duration-ms="54" started-at="2016-06-29T11:04:27Z" finished-at="2016-06-29T11:04:28Z">
+      <class name="com.soul.cases.OpenBrowser">
+        <test-method status="PASS" signature="closeBrowser()" name="closeBrowser" duration-ms="41" started-at="2016-06-29T11:04:28Z" finished-at="2016-06-29T11:04:28Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

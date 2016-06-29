@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="register" failures="1" tests="1" time="9.392" errors="0">
+  <properties/>
+  <testcase name="register" time="5.286" classname="com.soul.cases.Register">
+    <failure type="org.openqa.selenium.TimeoutException" message="Timed out after 3 seconds waiting for com.soul.objects.BasePage$2@44d91f1f
+Build info: version: &amp;apos;2.44.0&amp;apos;, revision: &amp;apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&amp;apos;, time: &amp;apos;2014-10-23 13:11:40&amp;apos;
+System info: host: &amp;apos;HAPPY&amp;apos;, ip: &amp;apos;192.168.56.1&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.7.0_75&amp;apos;
+Session ID: 9b1d3e54-cd64-4f6e-9ea4-989bf4576043
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]">
+      <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 3 seconds waiting for com.soul.objects.BasePage$2@44d91f1f
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'HAPPY', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: 9b1d3e54-cd64-4f6e-9ea4-989bf4576043
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.soul.objects.BasePage.findElement(BasePage.java:130)
+	at com.soul.objects.BasePage.type(BasePage.java:88)
+	at com.soul.objects.LoginPage.typeRegisterNameInputBox(LoginPage.java:65)
+	at com.soul.cases.Register.register(Register.java:33)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

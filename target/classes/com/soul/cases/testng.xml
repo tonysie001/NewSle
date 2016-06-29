@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="YB" allow-return-values="true">
+    <!-- 打开 -->
+	<test name="open">
+		<classes>
+			<class name="com.soul.cases.OpenBrowser">
+				<methods>
+					<include name="openBrowser"></include>
+				</methods>
+			</class>
+		
+			<class name="com.soul.cases.Login">
+				<methods>
+				    <include name="openBrowser"></include>
+					<include name="login"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	
+	<!-- 
+	<test name="register">
+		<classes>
+			<class name="com.soul.cases.Register">
+				<methods>
+					<include name="register"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	
+	<test name="open">
+		<classes>
+			<class name="com.soul.cases.OpenBrowser">
+				<methods>
+					<include name="openBrowser"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>注册 -->
+	
+	<!-- 登录 
+	<test name="login">
+		<classes>
+			<class name="com.soul.cases.Login">
+				<methods>
+				    <include name="openBrowser"></include>
+					<include name="login"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	-->
+	<!-- 
+	<test name="homeClick">
+		<classes>
+			<class name="com.soul.cases.HomeShellClick">
+				<methods>
+					<include name="homePagePhotoBook"></include>
+					<include name="homePageStore"></include>
+					<include name="homePageTeamBook"></include>
+					<include name="homePagePromotion"></include>
+					<include name="homePagePhotoWash"></include>
+					<include name="homePageGuide"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+-->
+	<test name="close">
+		<classes>
+			<class name="com.soul.cases.OpenBrowser">
+				<methods>
+					<include name="closeBrowser"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	</suite> 

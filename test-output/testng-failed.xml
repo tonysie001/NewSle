@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="1" name="Failed suite [YB]" junit="false" parallel="false" annotations="JDK" data-provider-thread-count="10">
+  <test name="login(failed)" junit="false" parallel="false" annotations="JDK">
+    <classes>
+      <class name="com.soul.cases.Login">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

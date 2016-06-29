@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="homeClick" failures="5" tests="6" time="17.69" errors="0">
+  <properties/>
+  <testcase name="homePageGuide" time="0.0" classname="com.soul.cases.HomeShellClick">
+    <skipped/>
+  </testcase>
+  <testcase name="homePagePhotoBook" time="3.206" classname="com.soul.cases.HomeShellClick">
+    <failure type="org.openqa.selenium.TimeoutException" message="Timed out after 3 seconds waiting for com.soul.objects.BasePage$2@2f15ec75
+Build info: version: &amp;apos;2.44.0&amp;apos;, revision: &amp;apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&amp;apos;, time: &amp;apos;2014-10-23 13:11:40&amp;apos;
+System info: host: &amp;apos;HAPPY&amp;apos;, ip: &amp;apos;192.168.56.1&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.7.0_75&amp;apos;
+Session ID: 9b1d3e54-cd64-4f6e-9ea4-989bf4576043
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]">
+      <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 3 seconds waiting for com.soul.objects.BasePage$2@2f15ec75
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'HAPPY', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: 9b1d3e54-cd64-4f6e-9ea4-989bf4576043
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.soul.objects.BasePage.findElement(BasePage.java:130)
+	at com.soul.objects.BasePage.click(BasePage.java:95)
+	at com.soul.objects.HomePage.clickPhotoBook(HomePage.java:30)
+	at com.soul.cases.HomeShellClick.homePagePhotoBook(HomeShellClick.java:15)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="homePagePhotoWash" time="3.585" classname="com.soul.cases.HomeShellClick">
+    <failure type="org.openqa.selenium.TimeoutException" message="Timed out after 3 seconds waiting for com.soul.objects.BasePage$2@31f16dd3
+Build info: version: &amp;apos;2.44.0&amp;apos;, revision: &amp;apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&amp;apos;, time: &amp;apos;2014-10-23 13:11:40&amp;apos;
+System info: host: &amp;apos;HAPPY&amp;apos;, ip: &amp;apos;192.168.56.1&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.7.0_75&amp;apos;
+Session ID: 9b1d3e54-cd64-4f6e-9ea4-989bf4576043
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]">
+      <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 3 seconds waiting for com.soul.objects.BasePage$2@31f16dd3
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'HAPPY', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: 9b1d3e54-cd64-4f6e-9ea4-989bf4576043
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.soul.objects.BasePage.findElement(BasePage.java:130)
+	at com.soul.objects.BasePage.click(BasePage.java:95)
+	at com.soul.objects.HomePage.clickPhotoWash(HomePage.java:38)
+	at com.soul.cases.HomeShellClick.homePagePhotoWash(HomeShellClick.java:43)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="homePagePromotion" time="3.512" classname="com.soul.cases.HomeShellClick">
+    <failure type="org.openqa.selenium.TimeoutException" message="Timed out after 3 seconds waiting for com.soul.objects.BasePage$2@39a87c1d
+Build info: version: &amp;apos;2.44.0&amp;apos;, revision: &amp;apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&amp;apos;, time: &amp;apos;2014-10-23 13:11:40&amp;apos;
+System info: host: &amp;apos;HAPPY&amp;apos;, ip: &amp;apos;192.168.56.1&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.7.0_75&amp;apos;
+Session ID: 9b1d3e54-cd64-4f6e-9ea4-989bf4576043
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]">
+      <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 3 seconds waiting for com.soul.objects.BasePage$2@39a87c1d
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'HAPPY', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: 9b1d3e54-cd64-4f6e-9ea4-989bf4576043
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.soul.objects.BasePage.findElement(BasePage.java:130)
+	at com.soul.objects.BasePage.click(BasePage.java:95)
+	at com.soul.objects.HomePage.clickPromotion(HomePage.java:42)
+	at com.soul.cases.HomeShellClick.homePagePromotion(HomeShellClick.java:36)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="homePageStore" time="3.654" classname="com.soul.cases.HomeShellClick">
+    <failure type="org.openqa.selenium.TimeoutException" message="Timed out after 3 seconds waiting for com.soul.objects.BasePage$2@289278d5
+Build info: version: &amp;apos;2.44.0&amp;apos;, revision: &amp;apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&amp;apos;, time: &amp;apos;2014-10-23 13:11:40&amp;apos;
+System info: host: &amp;apos;HAPPY&amp;apos;, ip: &amp;apos;192.168.56.1&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.7.0_75&amp;apos;
+Session ID: 9b1d3e54-cd64-4f6e-9ea4-989bf4576043
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]">
+      <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 3 seconds waiting for com.soul.objects.BasePage$2@289278d5
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'HAPPY', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: 9b1d3e54-cd64-4f6e-9ea4-989bf4576043
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.soul.objects.BasePage.findElement(BasePage.java:130)
+	at com.soul.objects.BasePage.click(BasePage.java:95)
+	at com.soul.objects.HomePage.clickStore(HomePage.java:50)
+	at com.soul.cases.HomeShellClick.homePageStore(HomeShellClick.java:22)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="homePageTeamBook" time="3.639" classname="com.soul.cases.HomeShellClick">
+    <failure type="org.openqa.selenium.TimeoutException" message="Timed out after 3 seconds waiting for com.soul.objects.BasePage$2@665570e2
+Build info: version: &amp;apos;2.44.0&amp;apos;, revision: &amp;apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&amp;apos;, time: &amp;apos;2014-10-23 13:11:40&amp;apos;
+System info: host: &amp;apos;HAPPY&amp;apos;, ip: &amp;apos;192.168.56.1&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.7.0_75&amp;apos;
+Session ID: 9b1d3e54-cd64-4f6e-9ea4-989bf4576043
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]">
+      <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 3 seconds waiting for com.soul.objects.BasePage$2@665570e2
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'HAPPY', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_75'
+Session ID: 9b1d3e54-cd64-4f6e-9ea4-989bf4576043
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:79)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.soul.objects.BasePage.findElement(BasePage.java:130)
+	at com.soul.objects.BasePage.click(BasePage.java:95)
+	at com.soul.objects.HomePage.clickTeamBook(HomePage.java:34)
+	at com.soul.cases.HomeShellClick.homePageTeamBook(HomeShellClick.java:29)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
